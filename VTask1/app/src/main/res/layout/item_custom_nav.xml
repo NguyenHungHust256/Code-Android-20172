@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:weightSum="6"
+    android:layout_marginTop="5dp"
+    android:layout_height="56dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/image_item_group"
+        android:src="@drawable/user_nav"
+        android:layout_marginLeft="14sp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:weightSum="2"
+        android:layout_marginLeft="14sp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/txtNameGroup"
+            android:text="Công ty cổ phần đa quốc gia"
+            android:layout_weight="1.2"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_height="0dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="14dp"
+            android:text="hungpronguyen256@gmail.com"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/txtGmailGroup"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:id="@+id/txtCounterGroup"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_circle"
+            android:text="1"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

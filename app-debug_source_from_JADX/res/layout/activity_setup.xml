@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="10.0">
+    <TextView android:textSize="50dp" android:textStyle="bold" android:textColor="#000" android:padding="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:text="BKAChess" android:layout_weight="2.0" />
+    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/colorAccent" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:text="Hello, Please select your options : " android:layout_weight="1.0" />
+    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/colorAccent" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="10dp" android:text="Who plays firstly ? (*)" android:layout_weight="1.0" />
+    <RadioGroup android:orientation="horizontal" android:id="@+id/rbFP" android:padding="8dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <RadioButton android:textSize="20dp" android:textStyle="bold" android:textColor="0x106000b" android:id="@+id/rbP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Player" />
+        <RadioButton android:textSize="20dp" android:textStyle="bold" android:textColor="0x106000b" android:id="@+id/rbAI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70dp" android:text="AI" />
+    </RadioGroup>
+    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/colorAccent" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="10dp" android:text="You select X or O? (*)" android:layout_weight="1.0" />
+    <RadioGroup android:orientation="horizontal" android:id="@+id/rbXO" android:padding="8dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <RadioButton android:textSize="20dp" android:textStyle="bold" android:textColor="0x106000b" android:id="@+id/rbX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X" />
+        <RadioButton android:textSize="20dp" android:textStyle="bold" android:textColor="0x106000b" android:id="@+id/rbO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:text="O" />
+    </RadioGroup>
+    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/colorAccent" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="10dp" android:text="You select Level AI (*)" android:layout_weight="1.0" />
+    <RadioGroup android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <RadioButton android:textSize="20dp" android:textStyle="bold" android:textColor="0x106000b" android:id="@+id/rbEasy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Easy" />
+        <RadioButton android:textSize="20dp" android:textStyle="bold" android:textColor="0x106000b" android:id="@+id/rbMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="Medium" />
+        <RadioButton android:textSize="20dp" android:textStyle="bold" android:textColor="0x106000b" android:id="@+id/rbHard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="Hard" />
+    </RadioGroup>
+    <Button android:textColor="0x106000c" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btnGo" android:background="@color/colorAccent" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="20dp" android:layout_marginBottom="40dp" android:text="Let 's play!" android:layout_weight="1.0" />
+</LinearLayout>

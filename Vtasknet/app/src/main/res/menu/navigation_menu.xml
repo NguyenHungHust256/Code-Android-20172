@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/subject_id"
+            android:icon="@drawable/ic_project"
+            android:title="@string/subject">
+
+        </item>
+
+        <item
+            android:id="@+id/member_id"
+            android:icon="@drawable/ic_member"
+            android:title="@string/member">
+
+        </item>
+
+        <item
+            android:id="@+id/notify_id"
+            android:icon="@drawable/ic_notify"
+            android:title="@string/notify_id">
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="@string/info_user"
+            android:icon="@drawable/ic_info_user"
+            android:id="@+id/info_id">
+        </item>
+
+        <item
+            android:title="@string/setting_app"
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/setting_id">
+        </item>
+
+
+    </group>
+
+    <item android:title="Tham gia nhóm">
+        <menu>
+            <item
+                android:title="@string/waiting"
+                android:icon="@drawable/ic_add_waiting"
+                android:id="@+id/waiting_id">
+            </item>
+            <item
+                android:title="@string/join"
+                android:icon="@drawable/ic_people_outline_black_24dp"
+                android:id="@+id/join_id">
+            </item>
+
+
+        </menu>
+    </item>
+</menu>

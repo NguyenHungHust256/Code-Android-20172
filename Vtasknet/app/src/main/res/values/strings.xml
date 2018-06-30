@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Vtask.net</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="user_name">Nguyen Ba Hung</string>
+    <string name="gmail_user_nav">hungpronguyen256@gmail.com</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="info_user">Thông tin tài khoản</string>
+    <string name="subject">Chủ đề/Dự án</string>
+    <string name="member">Thành viên</string>
+    <string name="notify_id">Thông báo</string>
+    <string name="setting_app">Cài đặt phần mềm</string>
+    <string name="waiting">Đang chờ duyệt</string>
+    <string name="join">Đã tham gia</string>
+    <string name="action_settings">Settings</string>
+</resources>

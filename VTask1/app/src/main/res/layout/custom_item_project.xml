@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="6"
+    android:padding="10dp"
+    android:layout_height="88dp">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/user_nav"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Game Center"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            android:layout_height="0dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="18 công việc"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
